@@ -1,0 +1,7 @@
+// Mixin
+@mixin d_flex($display: flex,$align: center,$justify: center,$wrap: wrap) {
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
